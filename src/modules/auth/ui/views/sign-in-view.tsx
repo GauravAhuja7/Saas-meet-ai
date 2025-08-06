@@ -119,7 +119,7 @@ export const SignInView = () => {
                   Sign in
                 </Button>
                 <div className="after:border-border relative text-center text-sm after:absolute
-                after:inset-0 after top-1/2 after:z-0 after:flex after:items-center after:border-t">
++                after:inset-0 after:top-1/2 after:z-0 after:flex after:items-center after:border-t">
                   <span className="bg-card text-muted-foreground relative z-10 px-2">
                     or continue with
                   </span>
@@ -142,7 +142,7 @@ export const SignInView = () => {
             </form>
           </Form>
 
-          <div className="bg-radial from-green-600 to-green-900 relative hidden md:flex felx-col gap-y-4 items-center justify-center">
+          <div className="bg-radial from-green-600 to-green-900 relative hidden md:flex flex-col gap-y-4 items-center justify-center">
             <img src="/logo.svg" alt="logo" className="w-[92px] h-[92px]" />
             <p className="text-2xl font-semibold text-white">
               Meet.AI 
