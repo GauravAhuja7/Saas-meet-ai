@@ -10,11 +10,11 @@ const Page = async () => {
     headers: await headers(),
   });
 
-  if(!!session) {
+  if (!!session) {
     redirect("/");
   }
 
-  return <SignUpView />;
+  return <SignUpView />
 }
-
+ 
 export default Page;

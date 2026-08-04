@@ -5,21 +5,16 @@ import { auth } from "@/lib/auth";
 
 import { SignInView } from "@/modules/auth/ui/views/sign-in-view";
 
-
 const Page = async () => {
-    const session = await auth.api.getSession({
-        headers: await headers(),
-      });
-    
-      if(!!session) {
-        redirect("/");
-      }
+  const session = await auth.api.getSession({
+    headers: await headers(),
+  });
 
-    return (
-        <SignInView />
-    )
+  if (!!session) {
+    redirect("/");
+  }
+
+  return <SignInView />
 }
-
+ 
 export default Page;
-
-// https://localhost:3000/sign-in
