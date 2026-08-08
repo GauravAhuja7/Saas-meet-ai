@@ -57,6 +57,4 @@ npm run start        # Start production server
 > "dev:webhook": "ngrok http --url=[YOUR_NGROK_STATIC_DOMAIN] 3000"
 > ```
 
----
 
-Created by [CodeWithAntonio](https://codewithantonio.com)
